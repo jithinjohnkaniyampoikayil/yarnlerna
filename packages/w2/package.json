@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo testing w2"
+    "test": "echo testing w2."
   },
   "dependencies": {
     "@yarnpack/w1": "^1.0.1"
