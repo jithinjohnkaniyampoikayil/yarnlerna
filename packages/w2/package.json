@@ -1,0 +1,9 @@
+{
+  "name": "@yarnpack/w2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@yarnpack/w1":"1.0.0"
+  }
+}
