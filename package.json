@@ -1,4 +1,16 @@
 {
-    "private":true,
-    "workspaces":["packages/*"]
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "testAll":"lerna run test",
+        "testW1":"lerna run test --scope=@yarnpack/w1",
+        "testW1W2":"lerna run test --scope={@yarnpack/w1,@yarnpack/w2}",
+        "new-version":"lerna version --conventional-commits --yes"
+    },
+    "devDependencies": {
+        "lerna": "^3.22.1"
+    },
+    "name": "yarnlerna"
 }
